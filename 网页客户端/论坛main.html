@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div class="friend-links">
+
+  <h3>友情链接</h3>
+  <div class="friend-link-item">
+    <a href="https://githubfast.com/zhiziqixingdeng">zhizi的GitHub</a>
+  </div>
+  <h3>广告<h3>
+     <p>NIHAO系列只是中途，zhizi产品才是归宿
+</div>
+  <title>NIHAO论坛</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <meta charset="utf-8"> 
+  <header>
+    <h1>NIHAO论坛</h1>
+  </header>
+
+  <section class="forum">
+    <h2>帖子列表</h2>
+    <ul id="post-list">
+    <li>
+  <h3>Hello，World</h3>
+  <p>欢迎您使用NIHAObbs(NIHAO论坛)，以下是新手指南！</p>
+</li>
+
+    </ul>
+  </section>
+
+
+  <section class="create-post">
+    <h2>写帖子...</h2>
+    <form id="post-form">
+      <input type="text" id="title" placeholder="标题" required>
+      <textarea id="content" placeholder="内容" required></textarea>
+      <button type="submit">发布</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+<style>
+@font-face {
+                font-family:"ZCOOLXiaoWei";
+                src:url("/static/ZCOOLXiaoWei.ttf") format("truetype");
+            }
+            ::selection {
+                background:#999;
+                color:#FFF;
+            }
+            ::-webkit-scrollbar {
+                width:7px;
+                height:7px;
+                overflow-y:auto;
+            }
+            ::-webkit-scrollbar-track {
+                display:none;
+            }
+            ::-webkit-scrollbar-thumb {
+                background:#888;
+            }
+            * {
+                margin:0;
+                padding:0;
+                line-height:1.8;
+                letter-spacing:1.4px;
+                overflow-wrap:break-word;
+                outline:none;
+                color:#444;
+                font-family:"ZCOOLXiaoWei";
+                cursor:default;
+                tab-size:4;
+                -moz-tab-size:4;
+                -o-tab-size:4;
+                scroll-behavior:smooth;
+                text-underline-position:under;
+            }
+            html,body {
+                background:#FDFDFD;
+            }
+            body {
+                padding:0 8em 1em 4vw;
+                font-size:18px;
+                opacity:0;
+                animation:fadeIn 1s ease-in-out forwards;
+            }
+            h1 {
+                margin-bottom:8px;
+                padding-bottom:0.1em;
+                border-bottom:2px solid #888;
+                cursor:pointer;
+                font-size:1.8em;
+                margin-top:1em;
+            }
+            @keyframes fadeIn {
+                to {opacity:1}
+            }
+            @media (max-width:1100px) {
+                body {
+                    padding:0 4em 1em 4vw;
+                    font-size:17px;
+                }
+            }
+            @media (max-width:900px) {
+                body {
+                    padding:0 4em 1em 3vw;
+                }
+            }
+            @media (max-width:800px) {
+                body {
+                    padding:0 3vw 1em 3vw;
+                    font-size:15px;
+                }
+            }
+            @media (max-width:310px) {
+                body {
+                    display:none!important;
+                }
+            }
+            @media print {
+                html,body {
+                    background:white;
+                }
+            }
+            <style>
+</html>
